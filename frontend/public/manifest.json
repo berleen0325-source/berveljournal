@@ -1,0 +1,20 @@
+{
+  "name": "TradingJourney Pro",
+  "short_name": "TJ Pro",
+  "description": "Your trading command center",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0F1117",
+  "background_color": "#0F1117",
+  "icons": [
+    { "src": "/icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Journal", "url": "/journal", "icons": [{ "src": "/icons/shortcut-journal.png", "sizes": "96x96" }] },
+    { "name": "Live Trades", "url": "/trades", "icons": [{ "src": "/icons/shortcut-trades.png", "sizes": "96x96" }] },
+    { "name": "Calendar", "url": "/calendar", "icons": [{ "src": "/icons/shortcut-calendar.png", "sizes": "96x96" }] }
+  ]
+}
